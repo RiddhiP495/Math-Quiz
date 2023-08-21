@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">A3-Riddhi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_again">Play Again</string>
+    <string name="score_goes_here">Score goes here</string>
+    <string name="question_goes_here">Question Goes here</string>
+    <string name="history_screen">History Screen</string>
+    <string name="score">Score:</string>
+    <string name="date_played">Date Played:</string>
+</resources>

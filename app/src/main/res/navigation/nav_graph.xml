@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/quizFragment">
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.a3_riddhi.ui.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <argument
+            android:name="QuizViewModel"
+            app:argType="com.example.a3_riddhi.ui.viewmodel.QuizViewModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.a3_riddhi.ui.fragments.QuizFragment"
+        android:label="fragment_quiz_fragment"
+        tools:layout="@layout/fragment_quiz_fragment" />
+
+</navigation>
